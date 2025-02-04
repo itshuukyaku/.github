@@ -26,3 +26,17 @@
 ---
 
 これらのドキュメントを参照し、プロジェクトへの貢献やセキュリティ対応を適切に行ってください。
+
+## CommitLint の適用手順
+
+1. CommitLint とその依存関係をインストールします。
+    ```bash
+    npm install --save-dev @commitlint/{config-conventional,cli}
+    ```
+
+2. `husky` をインストールし、コミットメッセージを検証するためのフックを設定します。
+    ```bash
+    npx husky install
+    ```
+
+3. これで、コミットメッセージが CommitLint のルールに従っているかどうかが自動的に検証されます。

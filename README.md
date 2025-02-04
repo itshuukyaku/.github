@@ -31,7 +31,7 @@
 
 1. CommitLint とその依存関係をインストールします。
     ```bash
-    npm install --save-dev @commitlint/{config-conventional,cli}
+    npm install
     ```
 
 2. `husky` をインストールし、コミットメッセージを検証するためのフックを設定します。
